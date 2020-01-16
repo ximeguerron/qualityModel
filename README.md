@@ -6,10 +6,12 @@ In this site, you can find relevant information attached to the article the **_A
 PLANNING
 1. [Search Protocol](#Protocolo)
 2. [Search Strings](#busqueda)
+
 CONDUCTING
 3. [Primary Studies](#estudios)
-4. Quality Assessment {#qa}
+4. Quality Assessment (#qa)
 5. [Data Extraction Strategy](#criterios)
+
 REPORTING
 6. [Clasification of QoS metrics](#clasificacion)
 
@@ -17,7 +19,9 @@ REPORTING
 ## 1. Search Protocol {#Protocolo}
 Defining the objective:
 ```markdown
-This research aims to identify, taxonomically classify and systematically compare existing quality of service (QoS) metrics in the cloud computing domain according to the ISO/IEC 25010 quality model. 
+This research aims to identify, taxonomically classify and systematically compare existing 
+quality of service (QoS) metrics in the cloud computing domain according to the 
+ISO/IEC 25010 quality model. 
 ```
 
 The research questions are: 
@@ -364,12 +368,16 @@ In this subsection, we present the data extraction criteria for classifying the 
 
 Criteria | Possible Options 
 ------------ | -------------
-Quality Characteristic	|Effectiveness, Efficiency, Satisfaction, Freedom from risk, Context coverage. [5]
-Lifecycle Phase |	Requirements, Acquisition, Development, Integration, Operation, Retirement [6]
-Artifact	|Cloud service Specification, cloud service Architecture, cloud Service.
-Type of Service	|Software as a Service (SaaS), Platform as a Service (PaaS), Infraestructure as a Service (IaaS).
-Stakeholder viewpoint	|Cloud Service Consumer (CSC), Cloud Service Provider (CSP), Cloud Service Broker (CSB), Cloud Service Developer (CSD), End-user (USE) .
-Validation process	|Theory validation, Empiric validation, No validation.
+QoS characteristic | Functional Suitability, Performance efficiency, Compatibility, Usability, Reliability, Security, Maintainability, Portability.
+Metric type | Base, Derived.
+Tool support | Manual, Automatic.
+Measurement result | Qualitative, Quantitative, Hybrid.
+CS lifecycle phases | Requirements, Acquisition, Development, Integration, Operation, Retirement.
+Measured cloud artifact | Cloud specification, Cloud architecture, Actual cloud service.
+Service type | SaaS, PaaS, IaaS.
+Stakeholder’s viewpoint | Cloud Service Provider (CSP), Cloud Service Consumer (CSC), Cloud Service Broker (CSB), Cloud Service Developer (CSD), End-User/Client (EU).
+Validation procedure | Theoretical validation, Empirical validation, No validation. 
+
 
 # Reporting
 ## 6. Clasification of QoE metrics {#clasificacion}
