@@ -10,10 +10,9 @@ PLANNING
 CONDUCTING
 3. [Primary Studies](#estudios)
 4. Quality Assessment (#qa)
-5. [Data Extraction Strategy](#criterios)
 
 REPORTING
-6. [Clasification of QoS metrics](#clasificacion)
+5. [Taxonomy of QoS metrics for cloud services](#clasificacion)
 
 # Planning 
 ## 1. Search Protocol {#Protocolo}
@@ -63,6 +62,7 @@ SpringerLink| ((metric* OR measur*) AND (QoS OR "quality of service" OR "quality
 # Conducting
 ## 3. Primary Studies {#estudios}
 In this subsection, we present the list of papers selected. 
+
 Code | Primary Studies 
 ------------ | ------------- 
 S01 | Abd, S. K., Al-Haddad, S. A. R., Hashim, F., Abdullah, A. B. H. J., & Yussof, S. (2017). An effective approach for managing power consumption in cloud computing infrastructure. Journal of Computational Science, 21, 349–360. https://doi.org/https://doi.org/10.1016/j.jocs.2016.11.007
@@ -366,25 +366,9 @@ S88 | C | 0 | 24 | 2014 | 5 | IEEE Xplore
 CORE-ERA http://portal.core.edu.au
 JCR https://www.recursoscientificos.fecyt.es/factor/
 
-## 5. Data Extraction Strategy {#criterios}
-In this subsection, we present the data extraction criteria for classifying the collected metrics of quality of experience at cloud services. Each criterion has its possible options detailed.
-
-Criteria | Possible Options 
------------- | -------------
-QoS characteristic | Functional Suitability, Performance efficiency, Compatibility, Usability, Reliability, Security, Maintainability, Portability.
-Metric type | Base, Derived.
-Tool support | Manual, Automatic.
-Measurement result | Qualitative, Quantitative, Hybrid.
-CS lifecycle phases | Requirements, Acquisition, Development, Integration, Operation, Retirement.
-Measured cloud artifact | Cloud specification, Cloud architecture, Actual cloud service.
-Service type | SaaS, PaaS, IaaS.
-Stakeholder’s viewpoint | Cloud Service Provider (CSP), Cloud Service Consumer (CSC), Cloud Service Broker (CSB), Cloud Service Developer (CSD), End-User/Client (EU).
-Validation procedure | Theoretical validation, Empirical validation, No validation. 
-
-
 # Reporting
-## 6. Clasification of QoE metrics {#clasificacion}
-In this subsection, is shown the results' metrics obtained from primary studies. Their classification was done using the data extraction criteria. 
+## 5. Taxonomy of QoS metrics for cloud services {#clasificacion}
+In this subsection, is shown the taxonomy of metrics for cloud services. The classification was done using the data extraction criteria. 
 
 <a href ="./Files/Appendix1.ClassificationMetrics.pdf">  Apéndice 1 </a>
 
