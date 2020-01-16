@@ -6,9 +6,11 @@ In this site, you can find relevant information attached to the article the **_A
 PLANNING
 1. [Search Protocol](#Protocolo)
 2. [Search Strings](#busqueda)
+
 CONDUCTING
 3. [Primary Studies](#estudios)
 4. [Quality Assessment](#qa)
+
 REPORTING
 5. [Taxonomy of QoS metrics for cloud services](#clasificacion)
 
@@ -372,7 +374,7 @@ JCR https://www.recursoscientificos.fecyt.es/factor/
 ## 5. Taxonomy of QoS metrics for cloud services {#clasificacion}
 In this subsection, is shown the taxonomy of metrics for cloud services. The classification was done using the data extraction criteria. 
 
-<a href ="./Files/Appendix1.ClassificationMetrics.pdf">  Apéndice 1 </a>
+<a href ="./Files/Appendix1.ClassificationMetrics.pdf">  Appendix 1 </a>
 
 ## Support or Contact 
 
