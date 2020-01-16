@@ -176,7 +176,9 @@ QUALITY ASSESSMENT
 The primary studies' quality was scored based on how well they satisfied the ten quality questions.  Be clear that we do not evaluate the quality of the paper itself with these criteria, but only its contributions’ alignment with our research questions. Then the scores less than five were removed (S85,S86, S87,S88).
 
 Code | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Total
------------- | -------------  | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+
+--- | ----- | ---------| ------- | --------- | -------- | ------------- | ------------- | -------- | --------- | --------- 
+
 S01 | Y | P | Y | Y | Y | P | Y | Y | N | N | 7
 S02 | Y | P | Y | Y | Y | P | Y | Y | P | P | 8
 S03 | Y | P | Y | Y | Y | Y | Y | Y | N | P | 8
