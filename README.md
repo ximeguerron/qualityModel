@@ -9,7 +9,7 @@ PLANNING
 
 CONDUCTING
 3. [Primary Studies](#estudios)
-4. Quality Assessment (#qa)
+4. [Quality Assessment](#qa)
 
 REPORTING
 5. [Taxonomy of QoS metrics for cloud services](#clasificacion)
@@ -172,10 +172,10 @@ Q10. (Limitations) Are the limitations of the study discussed? |
 
 
 QUALITY ASSESSMENT 
+
 The primary studies' quality was scored based on how well they satisfied the ten quality questions.  Be clear that we do not evaluate the quality of the paper itself with these criteria, but only its contributions’ alignment with our research questions. Then the scores less than five were removed (S85,S86, S87,S88).
 
 Code | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Total
-
 ------------ | -------------  | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 S01 | Y | P | Y | Y | Y | P | Y | Y | N | N | 7
 S02 | Y | P | Y | Y | Y | P | Y | Y | P | P | 8
@@ -265,10 +265,13 @@ S85 | P | P | P | Y | Y | N | N | P | N | N | 4
 S86 | P | N | Y | P | P | N | P | P | N | N | 3,5
 S87 | P | N | P | Y | P | N | N | P | N | N | 3
 S88 | P | P | Y | Y | Y | N | N | P | N | N | 4,5
+
 Y: Fully compliance, P: Partially comply, N: Do not comply
 
 THE RELEVANCE OF PRIMARY STUDIES
+
 In order to know the impact and influence of the papers. We used two criteria: 
+
 •	The relevance of the journal or conference where the paper was published (CORE-ERA ranking for conference papers and the impact factor in Journal Citations Reports(JCR) for journal papers).  
 •	The number of citations of the paper, collected from Google Scholar . 
 
@@ -364,6 +367,7 @@ S87 | C | 0 | 2 | 2016 | 0 | IEEE Xplore
 S88 | C | 0 | 24 | 2014 | 5 | IEEE Xplore
 
 CORE-ERA http://portal.core.edu.au
+
 JCR https://www.recursoscientificos.fecyt.es/factor/
 
 # Reporting
@@ -374,4 +378,4 @@ In this subsection, is shown the taxonomy of metrics for cloud services. The cla
 
 ## Support or Contact 
 
-Having trouble with Pages or any questions or suggestions ? Please, contact us by email 
+Having trouble with Pages or any questions or suggestions? Please, contact us by email 
