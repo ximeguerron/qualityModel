@@ -55,16 +55,14 @@ The search string was adapted to each digital library (IEEE Xplore, ACM Digital 
 
 Digital Libray| Search String | Search Metadata |Constraints
 ------------ | ------------- |------------ | ------------- 
-IEEE Xplore |(((attribute* OR characteristic*) OR (metric* OR measur*)) AND (QoS OR "quality of service" OR QoE OR "quality of experience" OR "quality model" OR "evaluation model" OR "assessment model" OR "quality in cloud" OR "quality of cloud") AND (cloud*))
- |Title, abstract and keywords|Content Type: Conference Publications and Journals & Magazines. Year: 2006-2018
+IEEE Xplore |(((attribute* OR characteristic*) OR (metric* OR measur*)) AND (QoS OR "quality of service" OR QoE OR "quality of experience" OR "quality model" OR "evaluation model" OR "assessment model" OR "quality in cloud" OR "quality of cloud") AND (cloud*)) |Title, abstract and keywords|Content Type: Conference Publications and Journals & Magazines. Year: 2006-2018
 ACM Digital Library|(((acmdlTitle:attribute* OR acmdlTitle:characteristic*) OR (acmdlTitle:metric* OR acmdlTitle:measur*)) AND (acmdlTitle:QoS OR acmdlTitle:"quality of service" OR acmdlTitle:"quality model" OR acmdlTitle:"evaluation model" OR acmdlTitle:"assessment model" OR acmdlTitle:"quality in cloud" OR acmdlTitle:"quality of cloud") AND (acmdlTitle:cloud*)) OR (((recordAbstract:attribute* OR recordAbstract:characteristic*) OR (recordAbstract:metric* OR recordAbstract:measur*)) AND (recordAbstract:QoS OR recordAbstract:"quality of service" OR recordAbstract:"quality model" OR recordAbstract:"evaluation model" OR recordAbstract:"assessment model" OR recordAbstract:"quality in cloud" OR recordAbstract:"quality of cloud") AND (recordAbstract:cloud*)) OR (((keywords.author.keyword:attribute* OR keywords.author.keyword:characteristic*) OR (keywords.author.keyword:metric* OR keywords.author.keyword:measur*)) AND (keywords.author.keyword:QoS OR keywords.author.keyword:"quality of service" OR keywords.author.keyword:"quality model" OR keywords.author.keyword:"evaluation model" OR keywords.author.keyword:"assessment model" OR keywords.author.keyword:"quality in cloud" OR keywords.author.keyword:"quality of cloud") AND (keywords.author.keyword:cloud*)) |Title, abstract and keywords |Published since: 2006
 ScienceDirect|TITLE-ABSTR-KEY((((metric* OR measur*)) AND (QoS OR {quality of service} OR {quality model} OR {evaluation model} OR {quality in cloud} OR {quality of cloud}) AND (cloud*))) |Title, abstract and keywords|Pub-date > 2005. Content type: Journal.
 SpringerLink| ((metric* OR measur*) AND (QoS OR "quality of service" OR "quality model" OR "evaluation model" OR "quality in cloud" OR "quality of cloud") AND (cloud*))|Full text 	|Content Type: Article. Discipline: Computer Science Language: English.
 
 # Conducting
 ## 3. Primary Studies {#estudios}
-List of papers selected
-
+In this subsection, we present the list of papers selected. 
 Code | Primary Studies 
 ------------ | ------------- 
 S01 | Abd, S. K., Al-Haddad, S. A. R., Hashim, F., Abdullah, A. B. H. J., & Yussof, S. (2017). An effective approach for managing power consumption in cloud computing infrastructure. Journal of Computational Science, 21, 349–360. https://doi.org/https://doi.org/10.1016/j.jocs.2016.11.007
@@ -157,7 +155,7 @@ S87 | Khurana, R., & Bawa, R. K. (2016). QoS based Cloud Service Selection parad
 S88 | Klymash, M., Beshley, M., Strykhalyuk, B., & Maksymyuk, T. (2014). Research and development the methods of quality of service provision in Mobile Cloud systems. In Communications and Networking (BlackSeaCom), 2014 IEEE International Black Sea Conference on (pp. 160–164). http://doi.org/10.1109/BlackSeaCom.2014.6849030
 
 ## 4. Quality Assessment {#qa}
-
+In order assess the quality of studies, we designed the following quality questions.
 
 QUALITY QUESTIONS |
 ------------ |
@@ -166,15 +164,15 @@ Q2. (Aim)Are the research aim(s)/objective(s) clearly established? |
 Q3. (Context) Is the context of the study clearly specified? |
 Q4. (Data) Are the metrics for assessing the quality of cloud services clearly defined? |
 Q5. (Data) Are the measurement functions for calculating the metrics clearly defined? |
-Q6. (Design) Are the metric(s) empirically validated? |
+Q6. (Design) Are the metric(s) empirically validated? | 
 Q7. (Usefulness) Is there enough evidence that shows how the metrics can be used in practice? |
 Q8. (Contributions/results) Are the contributions/results of the paper discussed? |
 Q9. (Insights) Are the insights/lessons learned of the study reported? |
 Q10. (Limitations) Are the limitations of the study discussed? |
 
 
-QUALITY ASSESSMENT CHECKLIST
-
+QUALITY ASSESSMENT 
+The primary studies' quality was scored based on how well they satisfied the ten quality questions.  Be clear that we do not evaluate the quality of the paper itself with these criteria, but only its contributions’ alignment with our research questions. Then the scores less than five were removed (S85,S86, S87,S88).
 
 Code | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Total
 
@@ -267,10 +265,14 @@ S85 | P | P | P | Y | Y | N | N | P | N | N | 4
 S86 | P | N | Y | P | P | N | P | P | N | N | 3,5
 S87 | P | N | P | Y | P | N | N | P | N | N | 3
 S88 | P | P | Y | Y | Y | N | N | P | N | N | 4,5
+Y: Fully compliance, P: Partially comply, N: Do not comply
 
 THE RELEVANCE OF PRIMARY STUDIES
+In order to know the impact and influence of the papers. We used two criteria: 
+•	The relevance of the journal or conference where the paper was published (CORE-ERA ranking for conference papers and the impact factor in Journal Citations Reports(JCR) for journal papers).  
+•	The number of citations of the paper, collected from Google Scholar . 
 
-Code | Type conference /journal | Relevant publication | Google citations | Year | Rate Citation Value | Library
+Code | Type conference /journal | Relevant publication | Citations | Year | Rate Citation Value | Library
 ------------ | -------------  | ------------- | ------------- | ------------- | ------------- | -------------
 S01 | J | 10 | 12 | 2017 | 10 | ScienceDirect
 S02 | C | 5 | 5 | 2014 | 0 | IEEE Xplore
@@ -361,7 +363,8 @@ S86 | C | 5 | 8 | 2016 | 0 | IEEE Xplore
 S87 | C | 0 | 2 | 2016 | 0 | IEEE Xplore
 S88 | C | 0 | 24 | 2014 | 5 | IEEE Xplore
 
-
+CORE-ERA http://portal.core.edu.au
+JCR https://www.recursoscientificos.fecyt.es/factor/
 
 ## 5. Data Extraction Strategy {#criterios}
 In this subsection, we present the data extraction criteria for classifying the collected metrics of quality of experience at cloud services. Each criterion has its possible options detailed.
