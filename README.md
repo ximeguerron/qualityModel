@@ -6,11 +6,9 @@ In this site, you can find relevant information attached to the article the **_A
 PLANNING
 1. [Search Protocol](#Protocolo)
 2. [Search Strings](#busqueda)
-
 CONDUCTING
 3. [Primary Studies](#estudios)
 4. [Quality Assessment](#qa)
-
 REPORTING
 5. [Taxonomy of QoS metrics for cloud services](#clasificacion)
 
@@ -171,14 +169,12 @@ Q9. (Insights) Are the insights/lessons learned of the study reported? |
 Q10. (Limitations) Are the limitations of the study discussed? |
 
 
-QUALITY ASSESSMENT 
+**QUALITY ASSESSMENT**
 
 The primary studies' quality was scored based on how well they satisfied the ten quality questions.  Be clear that we do not evaluate the quality of the paper itself with these criteria, but only its contributions’ alignment with our research questions. Then the scores less than five were removed (S85,S86, S87,S88).
 
 Code | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Total
-
---- | ----- | ---------| ------- | --------- | -------- | ------------- | ------------- | -------- | --------- | --------- 
-
+--- | ----- | ---------| ------- | --------- | -------- | ---------- | ------- | -------- | --------- | -------
 S01 | Y | P | Y | Y | Y | P | Y | Y | N | N | 7
 S02 | Y | P | Y | Y | Y | P | Y | Y | P | P | 8
 S03 | Y | P | Y | Y | Y | Y | Y | Y | N | P | 8
@@ -270,7 +266,7 @@ S88 | P | P | Y | Y | Y | N | N | P | N | N | 4,5
 
 Y: Fully compliance, P: Partially comply, N: Do not comply
 
-THE RELEVANCE OF PRIMARY STUDIES
+**RELEVANCE OF PRIMARY STUDIES**
 
 In order to know the impact and influence of the papers. We used two criteria: 
 
