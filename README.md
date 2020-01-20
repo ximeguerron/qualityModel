@@ -157,7 +157,7 @@ S88 | Klymash, M., Beshley, M., Strykhalyuk, B., & Maksymyuk, T. (2014). Researc
 ## 4. Quality Assessment {#qa}
 In order assess the quality of studies, we designed the following quality questions.
 
-QUALITY QUESTIONS |
+**QUALITY QUESTIONS** |
 ------------ |
 Q1. (Motivation) Is the research problem clearly specified? |
 Q2. (Aim)Are the research aim(s)/objective(s) clearly established? |
@@ -365,6 +365,7 @@ S85 | C | 5 | 6 | 2015 | 0 | IEEE Xplore
 S86 | C | 5 | 8 | 2016 | 0 | IEEE Xplore
 S87 | C | 0 | 2 | 2016 | 0 | IEEE Xplore
 S88 | C | 0 | 24 | 2014 | 5 | IEEE Xplore
+J: Journal, C: Conference
 
 CORE-ERA http://portal.core.edu.au
 
