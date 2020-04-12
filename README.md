@@ -18,24 +18,29 @@ REPORTING
 ## 1. Search Protocol {#Protocolo}
 Defining the objective:
 ```markdown
-This research aims to identify, taxonomically classify and systematically compare existing 
-quality of service (QoS) metrics in the cloud computing domain according to the 
-ISO/IEC 25010 quality model. 
+This research aims to systematically identify and taxonomically classify available evidence on quality metrics for cloud services and provide a holistic comparison to analyze potential limitations of existing research
 ```
 
-The research questions are: 
+The main research question addressed is:
 ```markdown
-•	What quality characteristic was evaluated?
-•	What type of metric was it?
-•	Was there a tool to support the measurement process, and, if so, which one?
-•	What type of measurement results the metric provided?
-•	At what phases of the cloud service lifecycle the metric was used?
-•	To which type of user (cloud role) the metric is relevant?
-•	To what type of cloud service (i.e., SaaS, PaaS, IaaS) was the metric applied?
-•	What cloud artifacts or resources were measured?
-•	Which method was used to validate the metric?
+_What metrics have been used to evaluate the internal and external quality of cloud services and how are they measured and used?_
 ```
 
+The resulting subquestions are: 
+
+```markdown
+•	RQ1: What quality characteristics and attributes were evaluated?
+•	RQ2: What type of metrics were they?
+─	RQ2.1: If the metric is base, what is the unit that was used to calculate the metric?
+─	RQ2.2: If the metric is derived, what is the measurement function and unit that were used to calculate the metric?
+•	RQ3: Are there tools to support the measurement process, and, if so, which ones?
+•	RQ4: What type of measurement results the metrics provided?
+•	RQ5: At what phases of the cloud service lifecycle these metrics were used?
+•	 RQ6: To which type of stakeholders (cloud roles) are these metrics relevant?
+•	RQ7: To what type of cloud service (i.e., SaaS, PaaS, IaaS) were these metrics applied?
+•	RQ8: What cloud artifacts or resources were measured?
+•	RQ9: Which validation method was used to provide evidence about the metrics’ usefulness?
+```
 
 ## 2. Search Strings {#busqueda}
 
@@ -54,10 +59,10 @@ The search string was adapted to each digital library (IEEE Xplore, ACM Digital 
 
 Digital Libray| Search String | Search Metadata |Constraints
 ------------ | ------------- |------------ | ------------- 
-IEEE Xplore |((("Publication Title":attribute OR "Publication Title":characteristic OR "Abstract":attribute OR "Abstract":characteristic OR "IEEE Terms":attribute OR "IEEE Terms":characteristic OR "Author Keywords":attribute OR "Author Keywords":characteristic) OR ("Publication Title":metric OR "Publication Title":measur OR "Abstract":metric* OR "Abstract":measur* OR "IEEE Terms":metric* OR "IEEE Terms":measur* OR "Author Keywords":metric* OR "Author Keywords":measur*)) AND ("Publication Title":QoS OR "Publication Title":"quality of service" OR "Publication Title":QoE OR "Publication Title":"quality of experience" OR "Publication Title":"quality model" OR "Publication Title":"evaluation model" OR "Publication Title":"assessment model" OR "Publication Title":"quality in cloud" OR "Publication Title":"quality of cloud" OR "Abstract":QoS OR "Abstract":"quality of service" OR "Abstract":QoE OR "Abstract":"quality of experience" OR "Abstract":"quality model" OR "Abstract":"evaluation model" OR "Abstract":"assessment model" OR "Abstract":"quality in cloud" OR "Abstract":"quality of cloud" OR "IEEE Terms":QoS OR "IEEE Terms":"quality of service" OR "IEEE Terms":QoE OR "IEEE Terms":"quality of experience" OR "IEEE Terms":"quality model" OR "IEEE Terms":"evaluation model" OR "IEEE Terms":"assessment model" OR "IEEE Terms":"quality in cloud" OR "IEEE Terms":"quality of cloud" OR "Author Keywords":QoS OR "Author Keywords":"quality of service" OR "Author Keywords":QoE OR "Author Keywords":"quality of experience" OR "Author Keywords":"quality model" OR "Author Keywords":"evaluation model" OR "Author Keywords":"assessment model" OR "Author Keywords":"quality in cloud" OR "Author Keywords":"quality of cloud") AND ("Publication Title":cloud OR "Abstract":cloud OR "IEEE Terms":cloud OR "Author Keywords":cloud))|Title, abstract and keywords|Content Type: Conference Publications and Journals & Magazines. Year: 2006-2018
-ACM Digital Library|(Title:((attribute OR characteristic) OR (metric* OR measur*)) OR Abstract:((attribute OR characteristic) OR (metric* OR measur*))  OR Keyword:((attribute OR characteristic) OR (metric* OR measur*))) AND (Title:(QoS "quality of service" QoE "quality of experience" "quality model" "evaluation model" "assessment model" "quality in cloud" "quality of cloud") OR Abstract:(QoS "quality of service" QoE "quality of experience" "quality model" "evaluation model" "assessment model" "quality in cloud" "quality of cloud") OR Keyword:(QoS "quality of service" QoE "quality of experience" "quality model" "evaluation model" "assessment model" "quality in cloud" "quality of cloud")) AND (Title:(cloud) OR Abstract:(cloud) OR Keyword:(cloud))|Title, abstract and keywords |Published since: 2006
-ScienceDirect|TITLE-ABSTR-KEY(cloud ((attribute OR characteristic) OR (metric OR measur)) AND (QoS OR "quality of service" OR QoE OR "quality of experience" OR "quality model" OR "evaluation model" OR "assessment model" OR "quality in cloud" OR "quality of cloud")) |Title, abstract and keywords|Pub-date > 2005. Content type: Journal.
-SpringerLink| cloud* AND (attribute* OR characteristic* OR measur* OR metric*) AND (QoS OR "quality of service" OR QoE OR "quality of experience" OR "quality model" OR "evaluation model" OR "assessment model" OR "quality in cloud" OR "quality of cloud")|Full text 	|Content Type: Article. Discipline: Computer Science Language: English.
+IEEE Xplore |((("Publication Title":attribute OR "Publication Title":characteristic OR "Abstract":attribute OR "Abstract":characteristic OR "IEEE Terms":attribute OR "IEEE Terms":characteristic OR "Author Keywords":attribute OR "Author Keywords":characteristic) OR ("Publication Title":metric OR "Publication Title":measur OR "Abstract":metric* OR "Abstract":measur* OR "IEEE Terms":metric* OR "IEEE Terms":measur* OR "Author Keywords":metric* OR "Author Keywords":measur*)) AND ("Publication Title":QoS OR "Publication Title":"quality of service" OR "Publication Title":"quality model" OR "Publication Title":"evaluation model" OR "Publication Title":"assessment model" OR "Publication Title":"quality in cloud" OR "Publication Title":"quality of cloud" OR "Abstract":QoS OR "Abstract":"quality of service" OR "Abstract":"quality model" OR "Abstract":"evaluation model" OR "Abstract":"assessment model" OR "Abstract":"quality in cloud" OR "Abstract":"quality of cloud" OR "IEEE Terms":QoS OR "IEEE Terms":"quality of service" OR "IEEE Terms":"quality model" OR "IEEE Terms":"evaluation model" OR "IEEE Terms":"assessment model" OR "IEEE Terms":"quality in cloud" OR "IEEE Terms":"quality of cloud" OR "Author Keywords":QoS OR "Author Keywords":"quality of service" OR "Author Keywords":"quality model" OR "Author Keywords":"evaluation model" OR "Author Keywords":"assessment model" OR "Author Keywords":"quality in cloud" OR "Author Keywords":"quality of cloud") AND ("Publication Title":cloud OR "Abstract":cloud OR "IEEE Terms":cloud OR "Author Keywords":cloud))|Title, abstract and keywords|Content Type: Conference Publications and Journals & Magazines. Year: 2006-2018
+ACM Digital Library|(Title:((attribute OR characteristic) OR (metric* OR measur*)) OR Abstract:((attribute OR characteristic) OR (metric* OR measur*))  OR Keyword:((attribute OR characteristic) OR (metric* OR measur*))) AND (Title:(QoS "quality of service" "quality model" "evaluation model" "assessment model" "quality in cloud" "quality of cloud") OR Abstract:(QoS "quality of service" "quality model" "evaluation model" "assessment model" "quality in cloud" "quality of cloud") OR Keyword:(QoS "quality of service" "quality model" "evaluation model" "assessment model" "quality in cloud" "quality of cloud")) AND (Title:(cloud) OR Abstract:(cloud) OR Keyword:(cloud))|Title, abstract and keywords |Published since: 2006
+ScienceDirect|TITLE-ABSTR-KEY(cloud ((attribute OR characteristic) OR (metric OR measur)) AND (QoS OR "quality of service" OR "quality model" OR "evaluation model" OR "assessment model" OR "quality in cloud" OR "quality of cloud")) |Title, abstract and keywords|Pub-date > 2005. Content type: Journal.
+SpringerLink| cloud* AND (attribute* OR characteristic* OR measur* OR metric*) AND (QoS OR "quality of service" OR "quality model" OR "evaluation model" OR "assessment model" OR "quality in cloud" OR "quality of cloud")|Full text 	|Content Type: Article. Discipline: Computer Science Language: English.
 
 # Conducting
 ## 3. Primary Studies {#estudios}
@@ -176,6 +181,7 @@ Q10. (Limitations) Are the limitations of the study discussed? |
 The primary studies' quality was scored based on how well they satisfied the ten quality questions.  Be clear that we do not evaluate the quality of the paper itself with these criteria, but only its contributions’ alignment with our research questions. Then the scores less than five were removed (S85,S86, S87,S88).
 
 Code | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Total
+
 --- | ----- | ---------| ------- | --------- | -------- | ---------- | ------- | -------- | --------- | -------
 S01 | Y | P | Y | Y | Y | P | Y | Y | N | N | 7
 S02 | Y | P | Y | Y | Y | P | Y | Y | P | P | 8
