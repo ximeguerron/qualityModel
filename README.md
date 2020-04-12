@@ -18,12 +18,15 @@ REPORTING
 ## 1. Search Protocol {#Protocolo}
 Defining the objective:
 ```markdown
-This research aims to systematically identify and taxonomically classify available evidence on quality metrics for cloud services and provide a holistic comparison to analyze potential limitations of existing research
+This research aims to systematically identify and taxonomically classify 
+available evidence on quality metrics for cloud services and provide a 
+holistic comparison to analyze potential limitations of existing research
 ```
 
 The main research question addressed is:
 ```markdown
-_What metrics have been used to evaluate the internal and external quality of cloud services and how are they measured and used?_
+What metrics have been used to evaluate the internal and external 
+quality of cloud services and how are they measured and used?
 ```
 
 The resulting subquestions are: 
