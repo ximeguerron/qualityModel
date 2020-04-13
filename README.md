@@ -384,9 +384,9 @@ JCR https://www.recursoscientificos.fecyt.es/factor/
 # Reporting
 ## 5. Taxonomy of QoS metrics for cloud services {#clasificacion}
 In this subsection, is shown the taxonomy of metrics for cloud services. The classification was done using the data extraction criteria. 
-```markdown
+
  <a href ="./files/TaxonomyQualityMetrics.xlsx"> Taxonomy of quality metrics for cloud services </a>
- ```
+
 
 ## Support or Contact 
 
