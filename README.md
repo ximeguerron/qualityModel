@@ -1,5 +1,5 @@
 # Welcome 
-In this site, you can find relevant information attached to the article the **_A Taxonomy of metrics for cloud services_**. The research methodology and results are detailed in the next sections.
+In this site, you can find relevant information attached to the article the **_A Taxonomy of quality metrics for cloud services_**. The research methodology and results are detailed in the next sections.
 
 ## Index
 
@@ -34,12 +34,12 @@ The resulting subquestions are:
 ```markdown
 •	RQ1: What quality characteristics and attributes were evaluated?
 •	RQ2: What type of metrics were they?
-─	RQ2.1: If the metric is base, what is the unit that was used to calculate the metric?
-─	RQ2.2: If the metric is derived, what is the measurement function and unit that were used to calculate the metric?
+  ─	RQ2.1: If the metric is base, what unit was used to calculate it?
+  ─	RQ2.2: If the metric is derived, what measurement function and unit were used to calculate it?
 •	RQ3: Are there tools to support the measurement process, and, if so, which ones?
-•	RQ4: What type of measurement results the metrics provided?
-•	RQ5: At what phases of the cloud service lifecycle these metrics were used?
-•	 RQ6: To which type of stakeholders (cloud roles) are these metrics relevant?
+•	RQ4: What type of measurement results from the metrics provided?
+•	RQ5: During which phases of the cloud service lifecycle were these metrics used?
+•	 RQ6: For which type of stakeholders (cloud roles) are these metrics relevant?
 •	RQ7: To what type of cloud service (i.e., SaaS, PaaS, IaaS) were these metrics applied?
 •	RQ8: What cloud artifacts or resources were measured?
 •	RQ9: Which validation method was used to provide evidence about the metrics’ usefulness?
