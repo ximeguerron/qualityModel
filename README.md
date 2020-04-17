@@ -387,6 +387,10 @@ In this subsection, is shown the taxonomy of metrics for cloud services. The cla
 
  <a href ="./files/TaxonomyQualityMetrics.xlsx"> Taxonomy of quality metrics for cloud services </a>
 
+NOTE: In order to visualize the reports, please enable de _Power Pivot_ and _Power View_ complements of Excel.
+
+<a href ="https://support.office.com/en-us/article/Start-the-Power-Pivot-add-in-for-Excel-a891a66d-36e3-43fc-81e8-fc4798f39ea8"> How to enable Excel complements
+
 
 ## Support or Contact 
 
