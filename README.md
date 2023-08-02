@@ -101,9 +101,10 @@ assessment of the cloud service was performed following the ISO/IEC 25040 standa
 We focus on enabling the operationalization of the quality model of cloud services and using it to assess the services. Hence, the research questions are detailed:
 ```markdown
 • RQ1: Can the quality model be used to configure a custom quality model to assess the quality of a specific cloud service?
-• RQ2: Once quality requirements or relevant attributes are identified, can a quality model be built to fit the business needs.?
-• RQ3: Do the measurement results, their associated metrics, and operationalization provides actual knowledge of the current state
- of cloud services?
+• RQ2: Once quality requirements or relevant attributes are identified, can a quality model be built to fit the business
+needs.?
+• RQ3: Do the measurement results, their associated metrics, and operationalization provides actual knowledge of the
+current state of cloud services?
 • RQ4: Can the custom model be improved with new or updated metrics?
 ```
 
@@ -141,22 +142,32 @@ The tool monitor setting and   <p> 1. <a href ="https://onenr.io/02wdKxE1XQE"> I
   
 ## 9. Reportingy{#report}
 
-The answers for the research questions
+The answers to the research questions:
+```markdown
 RQ1: The quality model supports us to configure a custom quality model by selecting the appropriate quality
 attributes, metrics, and operationalization to adjust to a specific cloud service. The cloud service selected for the
-case study was Salert, and the custom quality model is represented in figure 5. The results show that the quality
+case study was Salert, and the custom quality model is represented in Figure 5. The results show that the quality
 requirements established for the Salert SaaS could be represented by the model generated.
+```
+
+```markdown
 RQ2: Once the quality requirements definition were done, we use a mixed approach to identify the relevant
 attributes, connect them to their corresponding characteristic and metrics and select the best operationalization fitted
 to the aspect wanted to measure. All these elements together made it possible to obtain a quality model fitted to the
 business needs. The business need began with a basic performance definition but evolve to a more complete model
 which include other quality characteristics such as reliability, security, etc.
+```
+
+```markdown
 RQ3: In our case study Salert is running over Linode platform. We use a third-party tool to gather raw data to
 calculate some specific metrics in the Linode platform. This tool supports the gathering of customized information
 to calculate high-level metrics (e.g., success ratio) that cannot be directly measured using the counters provided by
 the platform monitoring tool. The results provided in table 21, give the stakeholders complete information about the
 current state of Salert Saas in the period of time established and also a comparison with a prior period in order to
 detect the ascendant or descendant tendency of the results.
+```
+
+```markdown
 RQ4: In our experience of quality model was operationalized iteratively. We had very few quality requirements
 definitions that generated the first quality model with features of the basic performance of components (e.g. size,
 used percentage of resources). In the next iteration, we improved the model taking into account other aspects to be
@@ -167,7 +178,7 @@ value to the stakeholders (e.g., db insert rate) and results in a quality model 
 the business needs. During each iteration, the custom model was improved with new and updated metrics to obtain a
 quality model more suitable to cover and understand the business needs. Moreover, the process can be repeated at any
 time, enabling the continuous improvement of the quality definition for cloud services and their assessment.
-
+```
 
 ## Support or Contact 
 
