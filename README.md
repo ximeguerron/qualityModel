@@ -22,7 +22,9 @@ Case study
 ## 1. Metamodel of the quality model {#metamodel}
 The quality model proposes as the baseline the ISO/IEC 25010 standard, extends and decomposes into sub-characteristics adjusted to the domain, determines objectively measurable attributes, and specifies metrics for the attributes. <a href ="./images/modelo.png"> Figure 1 </a> provides a clear and structured representation of the metamodel of the quality model and its metaclasses that describe the relationships among cloud domain and quality model concepts.
 
- <p> Figure 1.<a href ="./images/modelo.png"> Metamodel of the quality model </a> <br> 
+![Metamodel](./images/modelo.png "Figure 1")
+
+ <p> Figure 1. <a href ="./images/modelo.png"> Metamodel of the quality model </a> <br> 
 
 Defining metamodel main concepts:
 ```markdown
@@ -48,12 +50,24 @@ On the one hand, the quality model proposed by the ISO/IEC 25010 standard, defin
 
 On the other hand, a taxonomy of metrics for the evaluation of cloud services was obtained through an SLR [3]. The process followed in the SLR contains three main phases: planning to define the review protocol, conducting to perform data collection, and reporting to communicate and report the results. In addition, the taxonomy creation
 process detailed the activities with their artifacts, inputs, and outputs for each.
-As a result, 240 attributes, 406 metrics, and 470 operationalizations were obtained (see <a href ="./images/modelo.png">Figure 2 </a>)
+As a result, 240 attributes, 406 metrics, and 470 operationalizations were obtained.
+
+
+<img src="./images/Figure2.png " alt="Figure 2" width="600px" align="center">
+
+ <p> Figure 2. <a href ="./images/Figure2.pdf">Attributes, metric, operationalizations </a> <br> 
+
 
 
 ## 3. Building quality model {#building}
 The hierarchical decomposition of the quality model was performed using thematic analysis. This method provides a rigorous and systematic way to process qualitative information by identifying, analyzing, and eliciting patterns (themes) within the data collected [42].
-<a href ="./images/modelo.png">Figure 3 </a> shows the process carried out collaboratively by the team of authors, in working meetings, and consisted of the following steps:
+Figure 3 shows the process carried out collaboratively by the team of authors, in working meetings, and consisted of the following steps:
+
+
+<img src="./images/Figure3.png " alt="Figure 3" width="600px" align="center">
+
+<p> Figure 3. <a href ="./images/Figure3.pdf">Process for decomposition of the quality model </a> <br> 
+
 
 ```markdown
 1. Coding: we read the selected primary studies and identified the text segments that refer to quality characteristics, quality
@@ -70,9 +84,13 @@ to understand the themes. The result was a set of themes related to quality char
 ## 4. Quality model for cloud services {#model}
 The model is organized hierarchically, starting from characteristics and subcharacteristics to attributes, metrics, and operationalizations. The section covers the cloud service domain, the classification and adaptation of characteristics and subcharacteristics to the domain, the decomposition of quality into attributes, the determination of metrics for attributes, and the establishment of relationships between quality entities.
 
-The proposed cloud services quality model is an adaptation and extension of the ISO/IEC 25010 SQuaRE standard to suit the cloud services domain. The process involved examining the eight characteristics of this standard and the 406 metrics from Guerron et al. [3]. The analysis and decomposition process resulted in 68 subcharacteristics that expand the subcharacteristics of the standard and 240 related attributes, which were used to build the hierarchical decomposition of the quality model. 
+The proposed cloud services quality model is an adaptation and extension of the ISO/IEC 25010 SQuaRE standard to suit the cloud services domain. The process involved examining the eight characteristics of this standard and the 406 metrics from Guerron et al. [3]. The analysis and decomposition process resulted in 68 subcharacteristics that expand the subcharacteristics of the standard and 240 related attributes, which were used to build the hierarchical decomposition of the quality model. Figure 4 shows the diagram of the model down to the level of characteristics and subcharacteristics, including existing and adding new ones.
 
-<a href ="./images/modelo.png">Figure 4 </a> shows the diagram of the model down to the level of characteristics and subcharacteristics, including existing and adding new ones.
+![Figure 4](./images/Figure4.png "Figure 4")
+
+<p> Figure 4.<a href ="./images/Figure4.pdf">Cloud service quality characteristics and subcharacteristics</a> <br> 
+
+
 
  3.<a href ="./files/TaxonomyQualityMetrics.xlsx"> quality model for cloud services </a> <br> 
 </p>
@@ -115,10 +133,12 @@ a real case of SaaS in the industry, a data science system applied to network an
 The quality model was applied as follows; first, the case team acted as the planner defining the quality requirements. Next, the configurator selected the attributes and metrics that fitted the requirements, mapped metrics and their operationalization to specify how the metrics will be calculated, and obtained a customized quality model for the case study. Third, the model is used in runtime to collect real-time measurements of running cloud service, applies the operationalization, and provides the monitored data.
 Finally, we performed the data analysis and reported the current quality state of the case study to enable immediate improvement of cloud service quality; the information provided should support the decision-making and adjustments for evolution or adaptation in cloud service. 
 
-Figure 6 shows the decomposition of quality characteristics into sub characteristics,
-quality attributes and metrics for the case study. This selection indicates that the quality characteristics most valued
+Figure 6 shows the decomposition of quality characteristics into sub characteristics, quality attributes ,and metrics for the case study. This selection indicates that the quality characteristics most valued
 by the domain experts were Performance Efficiency, Reliability, and Security, while the quality characteristics most
 valued by the software developers were Maintainability, Usability, and Compatibility
+
+![Figure 6](./images/Figure6.png "Figure 6")
+<p> Figure 6.<a href ="./images/Figure6.pdf">SaaS Salert Quality Model</a> <br> 
 
 ## 7. Data Collection{#collect}
 The data were collected from the set of components of the cloud service (e.g., host, dockers, API). This phase is the execution of the evaluation described in ISO/IEC 25040 [51].
@@ -130,14 +150,26 @@ We analyzed the values of the measures collected for each metric obtained from t
 
 We present the graphical representation of some measurement results performs during a period of time for some specific metrics, we separate them into different dashboard grouping by layers of components monitoring (e.g., host, PostgreSQL, containers, API).
 
-<a href ="./images/taxonomy.png"> Figure 7 </a>, reports the current IaaS state with the usage of CPU, memory, and storage measurements.
+<a href ="./images/Figure7.pdf"> Figure 7 </a>, reports the current IaaS state with the usage of CPU, memory, and storage measurements.
 
-<a href ="./images/taxonomy.png"> Figure 8 </a>, reports the PaaS PostgreSQL instance's current state we monitored the connections, commits, and the DB
-operations rate as new metrics. Regarding the PaaS containers, we represented the memory usage, and packets received and sent. Resources are shared
+![Figure 7](./images/Figure7.png "IaaS monitor")
+ <p> Figure 7.<a href ="./images/Figure7.pdf">IaaS monitor </a> <br> 
+
+<a href ="./images/Figure8.a.pdf"> Figure 8.a </a>, reports the PaaS PostgreSQL instance's current state we monitored the connections, commits, and the DB
+operations rate as new metrics. Regarding the  <a href ="./images/Figure8.b.pdf"> Figure 8.b </a> PaaS containers, we represented the memory usage, and packets received and sent. Resources are shared
 among all the containers.
 
-<a href ="./images/taxonomy.png"> Figure 9 </a>, report the monitored SaaS API using the throughput, response time, success, and error rate measurements.
+![Figure 8.a](./images/Figure8.a.png "Figure8.a")
+ <p> Figure 8.a.<a href ="./images/Figure8.a.pdf">PaaS DB Instance monitor</a> <br> 
 
+![Figure 8.b](./images/Figure8.b.png "PaaS Container monitor")
+ <p> Figure 8.b.<a href ="./images/Figure8.b.pdf">PaaS Container monitor</a> <br> 
+
+<a href ="./images/Figure9.pdf"> Figure 9 </a>, report the monitored SaaS API using the throughput, response time, success, and error rate measurements.
+
+![Figure 9](./images/Figure9.png "SaaS monitor")
+ <p> Figure 9.<a href ="./images/Figure9.pdf">SaaS monitor </a> <br> 
+  
 The tool monitor setting and   <p> 1. <a href ="https://onenr.io/02wdKxE1XQE"> IaaS monitor </a> <br>
   
 ## 9. Reportingy{#report}
@@ -155,23 +187,23 @@ RQ2: Once the quality requirements definition were done, we use a mixed approach
 attributes, connect them to their corresponding characteristic and metrics and select the best operationalization fitted
 to the aspect wanted to measure. All these elements together made it possible to obtain a quality model fitted to the
 business needs. The business need began with a basic performance definition but evolve to a more complete model
-which include other quality characteristics such as reliability, security, etc.
+which includes other quality characteristics such as reliability, security, etc.
 ```
 
 ```markdown
 RQ3: In our case study Salert is running over Linode platform. We use a third-party tool to gather raw data to
 calculate some specific metrics in the Linode platform. This tool supports the gathering of customized information
 to calculate high-level metrics (e.g., success ratio) that cannot be directly measured using the counters provided by
-the platform monitoring tool. The results provided in table 21, give the stakeholders complete information about the
+the platform monitoring tool. The results provided in Table 21, give the stakeholders complete information about the
 current state of Salert Saas in the period of time established and also a comparison with a prior period in order to
 detect the ascendant or descendant tendency of the results.
 ```
 
 ```markdown
-RQ4: In our experience of quality model was operationalized iteratively. We had very few quality requirements
+RQ4: In our experience of the quality model was operationalized iteratively. We had very few quality requirements
 definitions that generated the first quality model with features of the basic performance of components (e.g. size,
 used percentage of resources). In the next iteration, we improved the model taking into account other aspects to be
-measured and enriched the quality model with new requirements which finally mapped more metrics from the quality
+measured, and enriched the quality model with new requirements which finally mapped more metrics from the quality
 model (e.g., success ratio, response time), becoming a better version. Finally, in the last iteration, we repeat the cycle
 but at this time update and incorporate new metrics from other sources such as the third-party monitor tool which gives
 value to the stakeholders (e.g., db insert rate) and results in a quality model more suitable to cover and understand
