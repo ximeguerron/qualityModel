@@ -4,10 +4,10 @@ The **_product quality model_** and the **_case study_** are detailed in the nex
 
 ## Index
 
-Product quality model for  cloud services
-1. [Metamodel of the quality model ](#metamodel)
+Quality model for  cloud services
+1. [Quality model Metamodel ](#metamodel)
 2. [Method](#method)
-3. [Building quality model](#building)
+3. [Building the quality model](#building)
 4. [Quality model for cloud services](#model)
 
 Case study
@@ -16,7 +16,6 @@ Case study
 6. [Preparation](#prepare)
 7. [Data Collection](#collect)
 8. [Data analysis](#analysis)
-9. [Reporting](#report)
 
 # Product quality model for  cloud services
 ## 1. Metamodel of the quality model {#metamodel}
@@ -45,7 +44,7 @@ ratio, or absolute) combined with a measurement approach (i.e., measurement meth
 
 ## 2. Method {#method}
 
-Our proposal is a quality model for cloud services that meet the conditions for a mixed approach and has been defined based on these two resources. 
+Our proposal is a quality model for cloud services that meets the conditions for a mixed approach and has been defined based on these two resources. 
 On the one hand, the quality model proposed by the ISO/IEC 25010 standard, defines the system and software quality characteristics and subcharacteristics at a high level of abstraction. The issue with this standard is that it provides a generic model that needs to be adapted to the specific context or domain of cloud services. 
 
 On the other hand, a taxonomy of metrics for the evaluation of cloud services was obtained through an SLR [3]. The process followed in the SLR contains three main phases: planning to define the review protocol, conducting to perform data collection, and reporting to communicate and report the results. In addition, the taxonomy creation
@@ -82,73 +81,34 @@ to understand the themes. The result was a set of themes related to quality char
 ```
 
 ## 4. Quality model for cloud services {#model}
-The model is organized hierarchically, starting from characteristics and subcharacteristics to attributes, metrics, and operationalizations. The section covers the cloud service domain, the classification and adaptation of characteristics and subcharacteristics to the domain, the decomposition of quality into attributes, the determination of metrics for attributes, and the establishment of relationships between quality entities.
-
-The proposed cloud services quality model is an adaptation and extension of the ISO/IEC 25010 SQuaRE standard to suit the cloud services domain. The process involved examining the eight characteristics of this standard and the 406 metrics from Guerron et al. [3]. The analysis and decomposition process resulted in 68 subcharacteristics that expand the subcharacteristics of the standard and 240 related attributes, which were used to build the hierarchical decomposition of the quality model. Figure 4 shows the diagram of the model down to the level of characteristics and subcharacteristics, including existing and adding new ones.
+The model is organized hierarchically, starting from characteristics and subcharacteristics to attributes, metrics, and operationalizations. 
+The proposed cloud services quality model is an adaptation and extension of the ISO/IEC 25010 SQuaRE standard to suit the cloud services domain. The process involved examining the eight characteristics of this standard and the 406 metrics from Guerron et al. [3]. The analysis and decomposition process resulted in 68 subcharacteristics that expand the subcharacteristics of the standard and 240 related attributes, which were used to build the hierarchical decomposition of the quality model. Figure 4 shows the model diagram down to the level of characteristics and subcharacteristics, including existing and adding new ones.
 
 ![Figure 4](./images/Figure4.png "Figure 4")
 
 <p> Figure 4.<a href ="./images/Figure4.pdf">Cloud service quality characteristics and subcharacteristics</a> <br> 
 
 
-
+Link to PowerBI file
  3.<a href ="./files/TaxonomyQualityMetrics.xlsx"> quality model for cloud services </a> <br> 
 </p>
-
+Link to Excel file
 NOTE: In order to visualize the reports, please enable de _Power Pivot_ and _Power View_ complements of Excel.
 
 <a href ="https://support.office.com/en-us/article/Start-the-Power-Pivot-add-in-for-Excel-a891a66d-36e3-43fc-81e8-fc4798f39ea8"> How to enable Excel complements
 
 # Case study
-A case study is an empirical method that investigates phenomena in real-world settings. The case study followed the next steps: design, preparation, data
-collection, data analysis, and reporting
+The objective of the case study was to demonstrate the feasibility of operationalizing the proposed quality model to assess cloud services (e.g., databases, applications, microservices).
 
-## 5. Design the case study{#design}
-Runeson et al. [52] established some elements for the case study design: the objective of the study, the conceptual
-framework of reference, the research questions to address, the sampling strategy, and the methods to use.
-First, the objective of the case study was to demonstrate the feasibility of operationalizing the proposed quality
-model to assess cloud services (e.g., databases, applications, microservices).
+The unit of analysis consisted of a single case SaaS called “Social Alert” (SAlert) running in a test operational environment. It is a real case of SaaS in the industry, a data science system applied to network analytics content-based. 
 
-The conceptual framework of reference linked the phenomena studied with the quality assessment of running cloud
-services, which means according to the elements defined in the quality model. First, we have defined the requirements
-of quality. Then, the customized quality model was established by mapping each element from characteristics to
-metrics and their operationalization. We collected raw data from deployed and delivered cloud service in the given
-environment, operated the quality assessment, and compared it with expected compliance. Consequently, the quality
-assessment of the cloud service was performed following the ISO/IEC 25040 standard [51].
-
-We focus on enabling the operationalization of the quality model of cloud services and using it to assess the services. Hence, the research questions are detailed:
-```markdown
-• RQ1: Can the quality model be used to configure a custom quality model to assess the quality of a specific cloud service?
-• RQ2: Once quality requirements or relevant attributes are identified, can a quality model be built to fit the business
-needs.?
-• RQ3: Do the measurement results, their associated metrics, and operationalization provides actual knowledge of the
-current state of cloud services?
-• RQ4: Can the custom model be improved with new or updated metrics?
-```
-
-The unit of analysis consisted of a single case SaaS called “Social Alert” (SAlert) running in a test operational environment. It is
-a real case of SaaS in the industry, a data science system applied to network analytics content-based. 
-
-## 6. Preparation{#prepare}
-The quality model was applied as follows; first, the case team acted as the planner defining the quality requirements. Next, the configurator selected the attributes and metrics that fitted the requirements, mapped metrics and their operationalization to specify how the metrics will be calculated, and obtained a customized quality model for the case study. Third, the model is used in runtime to collect real-time measurements of running cloud service, applies the operationalization, and provides the monitored data.
-Finally, we performed the data analysis and reported the current quality state of the case study to enable immediate improvement of cloud service quality; the information provided should support the decision-making and adjustments for evolution or adaptation in cloud service. 
-
-Figure 6 shows the decomposition of quality characteristics into sub characteristics, quality attributes ,and metrics for the case study. This selection indicates that the quality characteristics most valued
-by the domain experts were Performance Efficiency, Reliability, and Security, while the quality characteristics most
-valued by the software developers were Maintainability, Usability, and Compatibility
+Figure 6 shows the decomposition of quality characteristics into sub-characteristics, quality attributes, and metrics for the case study. 
 
 ![Figure 6](./images/Figure6.png "Figure 6")
 <p> Figure 6.<a href ="./images/Figure6.pdf">SaaS Salert Quality Model</a> <br> 
 
-## 7. Data Collection{#collect}
-The data were collected from the set of components of the cloud service (e.g., host, dockers, API). This phase is the execution of the evaluation described in ISO/IEC 25040 [51].
 We used a third-party tool called New Relic [38] to perform the measurements by gathering low-level raw data from the components of the SaaS, calculating others’ metrics, and resulting in values on the measurement scales
-
-## 8. Data analysis{#analysis}
-
-We analyzed the values of the measures collected for each metric obtained from the monitored cloud components in order to apply the decision criteria. The processing of this data allows us to determine which metrics meet the established threshold and which do not.
-
-We present the graphical representation of some measurement results performs during a period of time for some specific metrics, we separate them into different dashboard grouping by layers of components monitoring (e.g., host, PostgreSQL, containers, API).
+We present the graphical representation of some measurement results performed during a period of time for some specific metrics, we separate them into different dashboard grouping by layers of components monitoring (e.g., host, PostgreSQL, containers, API).
 
 <a href ="./images/Figure7.pdf"> Figure 7 </a>, reports the current IaaS state with the usage of CPU, memory, and storage measurements.
 
@@ -172,45 +132,7 @@ among all the containers.
   
 The tool monitor setting and   <p> 1. <a href ="https://onenr.io/02wdKxE1XQE"> IaaS monitor </a> <br>
   
-## 9. Reportingy{#report}
 
-The answers to the research questions:
-```markdown
-RQ1: The quality model supports us to configure a custom quality model by selecting the appropriate quality
-attributes, metrics, and operationalization to adjust to a specific cloud service. The cloud service selected for the
-case study was Salert, and the custom quality model is represented in Figure 5. The results show that the quality
-requirements established for the Salert SaaS could be represented by the model generated.
-```
-
-```markdown
-RQ2: Once the quality requirements definition were done, we use a mixed approach to identify the relevant
-attributes, connect them to their corresponding characteristic and metrics and select the best operationalization fitted
-to the aspect wanted to measure. All these elements together made it possible to obtain a quality model fitted to the
-business needs. The business need began with a basic performance definition but evolve to a more complete model
-which includes other quality characteristics such as reliability, security, etc.
-```
-
-```markdown
-RQ3: In our case study Salert is running over Linode platform. We use a third-party tool to gather raw data to
-calculate some specific metrics in the Linode platform. This tool supports the gathering of customized information
-to calculate high-level metrics (e.g., success ratio) that cannot be directly measured using the counters provided by
-the platform monitoring tool. The results provided in Table 21, give the stakeholders complete information about the
-current state of Salert Saas in the period of time established and also a comparison with a prior period in order to
-detect the ascendant or descendant tendency of the results.
-```
-
-```markdown
-RQ4: In our experience of the quality model was operationalized iteratively. We had very few quality requirements
-definitions that generated the first quality model with features of the basic performance of components (e.g. size,
-used percentage of resources). In the next iteration, we improved the model taking into account other aspects to be
-measured, and enriched the quality model with new requirements which finally mapped more metrics from the quality
-model (e.g., success ratio, response time), becoming a better version. Finally, in the last iteration, we repeat the cycle
-but at this time update and incorporate new metrics from other sources such as the third-party monitor tool which gives
-value to the stakeholders (e.g., db insert rate) and results in a quality model more suitable to cover and understand
-the business needs. During each iteration, the custom model was improved with new and updated metrics to obtain a
-quality model more suitable to cover and understand the business needs. Moreover, the process can be repeated at any
-time, enabling the continuous improvement of the quality definition for cloud services and their assessment.
-```
 
 ## Support or Contact 
 
