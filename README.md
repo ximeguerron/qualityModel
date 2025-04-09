@@ -18,6 +18,7 @@ Case study
 8. [Data analysis](#analysis)
 
 # Product quality model for  cloud services
+
 ## 1. Metamodel of the quality model {#metamodel}
 The quality model proposes as the baseline the ISO/IEC 25010 standard, extends and decomposes into sub-characteristics adjusted to the domain, determines objectively measurable attributes, and specifies metrics for the attributes. <a href ="./images/modelo.png"> Figure 1 </a> provides a clear and structured representation of the metamodel of the quality model and its metaclasses that describe the relationships among cloud domain and quality model concepts.
 
@@ -38,8 +39,6 @@ ratio, or absolute) combined with a measurement approach (i.e., measurement meth
 • Operationalization is the core of the metamodel, which establishes a mapping between the generic definition of a metric and
  the artifact or cloud platform where the metric is measured. 
 ```
-
-
 
 
 ## 2. Method {#method}
@@ -89,14 +88,16 @@ The proposed cloud services quality model is an adaptation and extension of the 
 <p> Figure 4.<a href ="./images/Figure4.pdf">Cloud service quality characteristics and subcharacteristics</a> <br> 
 </p>
 
-Link to PowerBI file <!-- (https://app.powerbi.com/groups/me/reports/9b8ada74-b2a1-481f-ac59-131e3422bc6a/ReportSection?experience=power-bi)-->
+
+Link to **PowerBI** file <!-- (https://app.powerbi.com/groups/me/reports/9b8ada74-b2a1-481f-ac59-131e3422bc6a/ReportSection?experience=power-bi)-->
  <a href ="https://app.powerbi.com/groups/me/reports/9b8ada74-b2a1-481f-ac59-131e3422bc6a/ReportSection?experience=power-bi"> Quality Model for Cloud Services </a> <br> 
  <!-- <a href ="./files/TaxonomyQualityMetrics.xlsx"> quality model for cloud services </a> <br> -->
 
 
-Link to Excel file
+Link to **Excel** file <a href ="https://support.office.com/en-us/article/Start-the-Power-Pivot-add-in-for-Excel-a891a66d-36e3-43fc-81e8-fc4798f39ea8"> How to enable Excel complements
+
 NOTE: In order to visualize the reports, please enable de _Power Pivot_ and _Power View_ complements of Excel. 
-<a href ="https://support.office.com/en-us/article/Start-the-Power-Pivot-add-in-for-Excel-a891a66d-36e3-43fc-81e8-fc4798f39ea8"> How to enable Excel complements
+
 
 # Case study
 The objective of the case study was to demonstrate the feasibility of operationalizing the proposed quality model to assess cloud services (e.g., databases, applications, microservices).
