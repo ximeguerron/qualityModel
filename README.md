@@ -1,17 +1,16 @@
-# Welcome 
+# Welcome {#inicio}
 You can find relevant information on this site attached to the article the **_A product quality model for cloud services_**. 
 The **_product quality model_** and the **_case study_** are detailed in the following sections.
 
 ## Index
 
-Quality model for  cloud services
+**Quality model for cloud services**
 1. [Quality model metamodel](#metamodel)
 2. [Method](#method)
 3. [Building the quality model](#building)
 4. [Quality model for cloud services](#model)
 
-Case study
-
+**Case study**
 5. [Design](#design)
 6. [Preparation](#prepare)
 7. [Data Collection](#collect)
@@ -41,7 +40,7 @@ ratio, or absolute) combined with a measurement approach (i.e., measurement meth
 
 
 
-## 2. Method{#method}
+## 2. Method {#method}
 
 Our proposal is a quality model for cloud services that meets the conditions for a mixed approach and has been defined based on these two resources. 
 On the one hand, the quality model proposed by the ISO/IEC 25010 standard, defines the system and software quality characteristics and subcharacteristics at a high level of abstraction. The issue with this standard is that it provides a generic model that needs to be adapted to the specific context or domain of cloud services. 
