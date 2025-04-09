@@ -104,7 +104,7 @@ The unit of analysis consisted of a single case SaaS called “Social Alert” (
 Figure 6 shows the decomposition of quality characteristics into sub-characteristics, quality attributes, and metrics for the case study. 
 
 ![Figure 6](./images/Figure6.png "Figure 6")
-<p> Figure 6.<a href ="./images/Figure6.pdf">SaaS Salert Quality Model</a> <br> 
+ Figure 6.<a href ="./images/Figure6.pdf">SaaS Salert Quality Model</a> <br> 
 
 We used a third-party tool called New Relic [38] to perform the measurements by gathering low-level raw data from the components of the SaaS, calculating others’ metrics, and resulting in values on the measurement scales
 We present the graphical representation of some measurement results performed during a period of time for some specific metrics, and we separate them into different dashboard groupings by layers of component monitoring (e.g., host, PostgreSQL, containers, API).
@@ -112,7 +112,7 @@ We present the graphical representation of some measurement results performed du
 <a href ="./images/Figure9.pdf"> Figure 7 </a> reports the monitored SaaS API using the throughput, response time, success, and error rate measurements.
 
 ![Figure 7](./images/Figure9.png "SaaS monitor")
- <p> Figure 9.<a href ="./images/Figure9.pdf">SaaS monitor </a> <be> 
+ Figure 9.<a href ="./images/Figure9.pdf">SaaS monitor </a> <be> 
 
 <a href ="./images/Figure8.a.pdf"> Figure 8.a </a>, reports the PaaS PostgreSQL instance's current state we monitored the connections, commits, and the DB
 operations rate as new metrics. Regarding the  <a href ="./images/Figure8.b.pdf"> Figure 8.b </a> PaaS containers, we represented the memory usage, and packets received and sent. Resources are shared
@@ -122,12 +122,12 @@ among all the containers.
  <p> Figure 8.a.<a href ="./images/Figure8.a.pdf">PaaS DB Instance monitor</a> <br> 
 
 ![Figure 8.b](./images/Figure8.b.png "PaaS Container monitor")
- <p> Figure 8.b.<a href ="./images/Figure8.b.pdf">PaaS Container monitor</a> <br> 
+ Figure 8.b.<a href ="./images/Figure8.b.pdf">PaaS Container monitor</a> <br> 
 
 <a href ="./images/Figure7.pdf"> Figure 7 </a>, reports the current IaaS state with the usage of CPU, memory, and storage measurements.
 
 ![Figure 8](./images/Figure7.png "IaaS monitor")
- <p> Figure 8.<a href ="./images/Figure7.pdf">IaaS monitor </a> <br> 
+  Figure 8.<a href ="./images/Figure7.pdf">IaaS monitor </a> <br> 
 
   
 <!--The tool monitor setting and   <p> 1. <a href ="https://onenr.io/02wdKxE1XQE"> IaaS monitor </a> <br>-->
