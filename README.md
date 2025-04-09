@@ -91,7 +91,7 @@ Link to **PowerBI** file <!-- (https://app.powerbi.com/groups/me/reports/9b8ada7
  <!-- <a href ="./files/TaxonomyQualityMetrics.xlsx"> quality model for cloud services </a> <br> -->
 
  <video width="640" height="360" controls>
-  <source src="./files/Demo1.mp4" type="demo1/mp4">
+  <source src="./files/Demo1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
