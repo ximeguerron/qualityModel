@@ -87,8 +87,15 @@ Link to **PowerBI** file <!-- (https://app.powerbi.com/groups/me/reports/9b8ada7
  <a href ="https://app.powerbi.com/groups/me/reports/9b8ada74-b2a1-481f-ac59-131e3422bc6a/ReportSection?experience=power-bi"> Quality Model for Cloud Services </a> <br> 
 
  Download **PowerBI** file on Local
- <a href =".files/modelv3.pbix"> Quality Model for Cloud Services </a> <br> 
+ <a href ="./files/modelv3.pbix"> Quality Model for Cloud Services </a> <br> 
  <!-- <a href ="./files/TaxonomyQualityMetrics.xlsx"> quality model for cloud services </a> <br> -->
+
+ <video width="640" height="360" controls>
+  <source src="./files/demo1.mp4" type="demo1/mp4">
+  Your browser does not support the video tag.
+</video>
+
+[Watch the video](./files/demo1.mp4)
 
 
 Link to **Excel** file <a href ="https://support.office.com/en-us/article/Start-the-Power-Pivot-add-in-for-Excel-a891a66d-36e3-43fc-81e8-fc4798f39ea8"> How to enable Excel complements
