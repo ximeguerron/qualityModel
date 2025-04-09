@@ -89,8 +89,9 @@ The proposed cloud services quality model is an adaptation and extension of the 
 <p> Figure 4.<a href ="./images/Figure4.pdf">Cloud service quality characteristics and subcharacteristics</a> <br> 
 
 
-Link to PowerBI file
- 3.<a href ="./files/TaxonomyQualityMetrics.xlsx"> quality model for cloud services </a> <br> 
+Link to PowerBI file <!-- (https://app.powerbi.com/groups/me/reports/9b8ada74-b2a1-481f-ac59-131e3422bc6a/ReportSection?experience=power-bi)-->
+ <a href ="https://app.powerbi.com/groups/me/reports/9b8ada74-b2a1-481f-ac59-131e3422bc6a/ReportSection?experience=power-bi"> Quality Model for Cloud Services </a> <br> 
+ <!-- <a href ="./files/TaxonomyQualityMetrics.xlsx"> quality model for cloud services </a> <br> -->
 </p>
 Link to Excel file
 NOTE: In order to visualize the reports, please enable de _Power Pivot_ and _Power View_ complements of Excel.
