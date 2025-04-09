@@ -11,11 +11,11 @@ The **_product quality model_** and the **_case study_** are detailed in the fol
 4. [Quality model for cloud services](#model)
 
 **Case study**
-
+<!--
 5. [Design](#design)
 6. [Preparation](#prepare)
 7. [Data Collection](#collect)
-8. [Data analysis](#analysis)
+8. [Data analysis](#analysis) -->
 
 # Product quality model for  cloud services
 
@@ -113,7 +113,7 @@ We present the graphical representation of some measurement results performed du
 <a href ="./images/Figure9.pdf"> Figure 7 </a> reports the monitored SaaS API using the throughput, response time, success, and error rate measurements.
 
 ![Figure 7](./images/Figure9.png "SaaS monitor")
- Figure 9.<a href ="./images/Figure9.pdf">SaaS monitor </a> <be> 
+ Figure 7.<a href ="./images/Figure9.pdf">SaaS monitor </a> <be> 
 
 <a href ="./images/Figure8.a.pdf"> Figure 8.a </a>, reports the PaaS PostgreSQL instance's current state we monitored the connections, commits, and the DB
 operations rate as new metrics. Regarding the  <a href ="./images/Figure8.b.pdf"> Figure 8.b </a> PaaS containers, we represented the memory usage, and packets received and sent. Resources are shared
@@ -125,10 +125,10 @@ among all the containers.
 ![Figure 8.b](./images/Figure8.b.png "PaaS Container monitor")
  Figure 8.b.<a href ="./images/Figure8.b.pdf">PaaS Container monitor</a> <br> 
 
-<a href ="./images/Figure7.pdf"> Figure 7 </a>, reports the current IaaS state with the usage of CPU, memory, and storage measurements.
+<a href ="./images/Figure7.pdf"> Figure 9 </a>, reports the current IaaS state with the usage of CPU, memory, and storage measurements.
 
-![Figure 8](./images/Figure7.png "IaaS monitor")
-  Figure 8.<a href ="./images/Figure7.pdf">IaaS monitor </a> <br> 
+![Figure 9](./images/Figure7.png "IaaS monitor")
+  Figure 9.<a href ="./images/Figure7.pdf">IaaS monitor </a> <br> 
 
   
 <!--The tool monitor setting and   <p> 1. <a href ="https://onenr.io/02wdKxE1XQE"> IaaS monitor </a> <br>-->
