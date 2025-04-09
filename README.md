@@ -11,16 +11,14 @@ The **_product quality model_** and the **_case study_** are detailed in the fol
 4. [Quality model for cloud services](#model)
 
 **Case study**
-<!--
-5. [Design](#design)
-6. [Preparation](#prepare)
-7. [Data Collection](#collect)
-8. [Data analysis](#analysis) -->
+
 
 # Product quality model for  cloud services
 
 ## 1. Quality model metamodel {#metamodel}
-The quality model proposes the ISO/IEC 25010 standard as the baseline extends and decomposes into sub-characteristics adjusted to the domain, determines objectively measurable attributes, and specifies metrics for the attributes. <a href ="./images/modelo.png"> Figure 1 </a> provides a clear and structured representation of the metamodel of the quality model and its metaclasses that describe the relationships among cloud domain and quality model concepts.
+The quality model proposes the ISO/IEC 25010 standard as the baseline extends and decomposes into sub-characteristics adjusted to the domain, determines objectively measurable attributes, and specifies metrics for the attributes. 
+
+<a href ="./images/modelo.png"> Figure 1 </a> provides a clear and structured representation of the metamodel of the quality model and its metaclasses that describe the relationships among cloud domain and quality model concepts.
 
 ![Metamodel](./images/modelo.png "Figure 1")
 
@@ -66,9 +64,7 @@ Figure 3 shows the process carried out collaboratively by the team of authors, i
 
 Figure 3. <a href ="./images/Figure3.pdf">Process for decomposition of the quality model </a> <br> 
 
-1. Coding: we read the selected primary studies and identified the text segments that refer to quality characteristics, quality
-attributes, and metrics. Then, the text segments containing relevant information were coded using a labeling system developed by
- the authors. Mendeley has been used as a support tool.
+1. Coding: we read the selected primary studies and identified the text segments that refer to quality characteristics, quality attributes, and metrics. Then, the text segments containing relevant information were coded using a labeling system developed by the authors. Mendeley has been used as a support tool.
 2. Transforming codes into themes: the codes obtained were analyzed to compare them and classify them into categories
 to combine them into potential themes. This process has been performed iteratively for each attribute and metric.
 3. Reviewing and refining themes: the themes obtained have been reviewed and compared to detect coincidences/repetitions.
@@ -89,6 +85,9 @@ Figure 4.<a href ="./images/Figure4.pdf">Cloud service quality characteristics a
 
 Link to **PowerBI** file <!-- (https://app.powerbi.com/groups/me/reports/9b8ada74-b2a1-481f-ac59-131e3422bc6a/ReportSection?experience=power-bi)-->
  <a href ="https://app.powerbi.com/groups/me/reports/9b8ada74-b2a1-481f-ac59-131e3422bc6a/ReportSection?experience=power-bi"> Quality Model for Cloud Services </a> <br> 
+
+ Download **PowerBI** file on Local
+ <a href =".files/modelv3.pbix"> Quality Model for Cloud Services </a> <br> 
  <!-- <a href ="./files/TaxonomyQualityMetrics.xlsx"> quality model for cloud services </a> <br> -->
 
 
