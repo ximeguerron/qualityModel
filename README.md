@@ -52,8 +52,8 @@ As a result, 243 attributes, 407 metrics, and 468 operationalizations were obtai
 
 <img src="./images/Figure2.png " alt="Figure 2" width="600px" align="center">
 
- <p> Figure 2. <a href ="./images/Figure2.pdf">Attributes, metric, operationalizations </a> <br> 
 
+Figure 2. <a href ="./images/Figure2.pdf">Attributes, metric, operationalizations </a> <br> 
 
 
 ## 3. Building quality model {#building}
@@ -63,10 +63,8 @@ Figure 3 shows the process carried out collaboratively by the team of authors, i
 
 <img src="./images/Figure3.png " alt="Figure 3" width="600px" align="center">
 
-<p> Figure 3. <a href ="./images/Figure3.pdf">Process for decomposition of the quality model </a> <br> 
+Figure 3. <a href ="./images/Figure3.pdf">Process for decomposition of the quality model </a> <br> 
 
-
-```markdown
 1. Coding: we read the selected primary studies and identified the text segments that refer to quality characteristics, quality
 attributes, and metrics. Then, the text segments containing relevant information were coded using a labeling system developed by
  the authors. Mendeley has been used as a support tool.
@@ -76,7 +74,7 @@ to combine them into potential themes. This process has been performed iterative
 The quality attributes, the metrics, and the cloud artifacts (where the metrics are applied) were compared with each other
 to understand the themes. The result was a set of themes related to quality characteristics, quality attributes, and metrics.
  
-```
+
 
 ## 4. Quality model for cloud services {#model}
 The model is organized hierarchically, from characteristics and subcharacteristics to attributes, metrics, and operationalizations. 
@@ -84,9 +82,9 @@ The proposed cloud services quality model is an adaptation and extension of the 
 
 ![Figure 4](./images/Figure4.png "Figure 4")
 
-<p> Figure 4.<a href ="./images/Figure4.pdf">Cloud service quality characteristics and subcharacteristics</a> <br> 
-</p>
+Figure 4.<a href ="./images/Figure4.pdf">Cloud service quality characteristics and subcharacteristics</a> <br> 
 
+<br> 
 
 Link to **PowerBI** file <!-- (https://app.powerbi.com/groups/me/reports/9b8ada74-b2a1-481f-ac59-131e3422bc6a/ReportSection?experience=power-bi)-->
  <a href ="https://app.powerbi.com/groups/me/reports/9b8ada74-b2a1-481f-ac59-131e3422bc6a/ReportSection?experience=power-bi"> Quality Model for Cloud Services </a> <br> 
