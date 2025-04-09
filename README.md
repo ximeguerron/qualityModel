@@ -1,6 +1,6 @@
 # Welcome 
 You can find relevant information on this site attached to the article the **_A product quality model for cloud services_**. 
-The **_product quality model_** and the **_case study_** are detailed in the next sections.
+The **_product quality model_** and the **_case study_** are detailed in the following sections.
 
 ## Index
 
@@ -47,9 +47,9 @@ ratio, or absolute) combined with a measurement approach (i.e., measurement meth
 Our proposal is a quality model for cloud services that meets the conditions for a mixed approach and has been defined based on these two resources. 
 On the one hand, the quality model proposed by the ISO/IEC 25010 standard, defines the system and software quality characteristics and subcharacteristics at a high level of abstraction. The issue with this standard is that it provides a generic model that needs to be adapted to the specific context or domain of cloud services. 
 
-On the other hand, a taxonomy of metrics for the evaluation of cloud services was obtained through an SLR [3]. The process followed in the SLR contains three main phases: planning to define the review protocol, conducting to perform data collection, and reporting to communicate and report the results. In addition, the taxonomy creation
+On the other hand, a taxonomy of metrics for evaluating cloud services was obtained through an SLR [3]. The process followed in the SLR contains three main phases: planning to define the review protocol, conducting to collect data, and reporting to communicate and report the results. In addition, the taxonomy creation
 process detailed the activities with their artifacts, inputs, and outputs for each.
-As a result, 240 attributes, 406 metrics, and 470 operationalizations were obtained.
+As a result, 243 attributes, 407 metrics, and 468 operationalizations were obtained.
 
 
 <img src="./images/Figure2.png " alt="Figure 2" width="600px" align="center">
