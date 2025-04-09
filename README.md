@@ -20,25 +20,25 @@ Case study
 # Product quality model for  cloud services
 
 ## 1. Quality model metamodel {#metamodel}
-The quality model proposes as the baseline the ISO/IEC 25010 standard, extends and decomposes into sub-characteristics adjusted to the domain, determines objectively measurable attributes, and specifies metrics for the attributes. <a href ="./images/modelo.png"> Figure 1 </a> provides a clear and structured representation of the metamodel of the quality model and its metaclasses that describe the relationships among cloud domain and quality model concepts.
+The quality model proposes the ISO/IEC 25010 standard as the baseline extends and decomposes into sub-characteristics adjusted to the domain, determines objectively measurable attributes, and specifies metrics for the attributes. <a href ="./images/modelo.png"> Figure 1 </a> provides a clear and structured representation of the metamodel of the quality model and its metaclasses that describe the relationships among cloud domain and quality model concepts.
 
 ![Metamodel](./images/modelo.png "Figure 1")
 
- <p> Figure 1. <a href ="./images/modelo.png"> Metamodel of the quality model </a> <br> 
+ <p> Figure 1. <a href ="./images/modelo.png"> Metamodel of the quality model </a> <br> <\p>
+  <be> 
 
 Defining metamodel main concepts:
-```markdown
-• Characteristics are non-measurable aspects that are used in the quality model to categorize a high-level aspect that can be
+- Characteristics are non-measurable aspects that are used in the quality model to categorize a high-level aspect that can be
 evaluated.
-• Subcharacteristics specify the aspects to be evaluated but are not objectively measurable and are broken down into quality
+- Subcharacteristics specify the aspects to be evaluated but are not objectively measurable and are broken down into quality
 attributes. These are contained in the characteristic metaclass with the relationship to itself.
-• Attributes are objectively measurable quality aspects (i.e., physical, abstract) that are not further decomposed and can be
+- Attributes are objectively measurable quality aspects (i.e., physical, abstract) that are not further decomposed and can be
 measured using metrics.
-• Metrics define a possible way to measure an attribute. It provides a measurement scale (i.e., nominal, ordinal, interval,
+- Metrics define a possible way to measure an attribute. It provides a measurement scale (i.e., nominal, ordinal, interval,
 ratio, or absolute) combined with a measurement approach (i.e., measurement method or measurement function)
-• Operationalization is the core of the metamodel, which establishes a mapping between the generic definition of a metric and
+- Operationalization is the core of the metamodel, which establishes a mapping between the generic definition of a metric and
  the artifact or cloud platform where the metric is measured. 
-```
+
 
 
 ## 2. Method{#method}
