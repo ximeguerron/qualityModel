@@ -11,6 +11,7 @@ The **_product quality model_** and the **_case study_** are detailed in the fol
 4. [Quality model for cloud services](#model)
 
 **Case study**
+
 5. [Design](#design)
 6. [Preparation](#prepare)
 7. [Data Collection](#collect)
