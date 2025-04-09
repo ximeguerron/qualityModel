@@ -23,7 +23,7 @@ The quality model proposes the ISO/IEC 25010 standard as the baseline extends an
 
 ![Metamodel](./images/modelo.png "Figure 1")
 
- <p> Figure 1. <a href ="./images/modelo.png"> Metamodel of the quality model </a> <br>
+ Figure 1. <a href ="./images/modelo.png"> Metamodel of the quality model </a> <br>
   <br> 
 
 Defining metamodel main concepts:
