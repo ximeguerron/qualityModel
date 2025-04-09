@@ -115,15 +115,17 @@ We present the graphical representation of some measurement results performed du
 ![Figure 7](./images/Figure9.png "SaaS monitor")
  Figure 7.<a href ="./images/Figure9.pdf">SaaS monitor </a> <be> 
 
-<a href ="./images/Figure8.a.pdf"> Figure 8.a </a>, reports the PaaS PostgreSQL instance's current state we monitored the connections, commits, and the DB
-operations rate as new metrics. Regarding the  <a href ="./images/Figure8.b.pdf"> Figure 8.b </a> PaaS containers, we represented the memory usage, and packets received and sent. Resources are shared
+<a href ="./images/Figure8.a.pdf"> Figure 8.a </a>, reports the PaaS PostgreSQL instance's current state we monitored the connections, commits, and the DB operations rate as new metrics. 
+
+Regarding the  <a href ="./images/Figure8.b.pdf"> Figure 8.b </a> PaaS containers, we represented the memory usage, and packets received and sent. Resources are shared
 among all the containers.
 
 ![Figure 8.a](./images/Figure8.a.png "Figure8.a")
- <p> Figure 8.a.<a href ="./images/Figure8.a.pdf">PaaS DB Instance monitor</a> <br> 
+ Figure 8.a.<a href ="./images/Figure8.a.pdf">PaaS DB Instance monitor</a> <br> 
 
 ![Figure 8.b](./images/Figure8.b.png "PaaS Container monitor")
- Figure 8.b.<a href ="./images/Figure8.b.pdf">PaaS Container monitor</a> <br> 
+ Figure 8.b.<a href ="./images/Figure8.b.pdf">PaaS Container monitor</a> <be> 
+
 
 <a href ="./images/Figure7.pdf"> Figure 9 </a>, reports the current IaaS state with the usage of CPU, memory, and storage measurements.
 
