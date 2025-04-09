@@ -95,8 +95,7 @@ Link to **PowerBI** file <!-- (https://app.powerbi.com/groups/me/reports/9b8ada7
   Your browser does not support the video tag.
 </video>
 
-[Watch the video](https://github.com/ximeguerron/qualityModel/tree/master/files)/Demo1.mp4)
-
+[Watch the video]<a href = "https://github.com/ximeguerron/qualityModel/tree/master/files/Demo1.mp4" target="_blank">**Demo **</a><br/>Download and play the Demo PowerBI Project
 
 Link to **Excel** file <a href ="https://support.office.com/en-us/article/Start-the-Power-Pivot-add-in-for-Excel-a891a66d-36e3-43fc-81e8-fc4798f39ea8"> How to enable Excel complements
 
