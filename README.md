@@ -88,8 +88,9 @@ Figure 4.<a href ="./images/Figure4.pdf">Cloud service quality characteristics a
  - Download **PowerBI file** on Local
  <a href ="./files/modelv3.pbix"> Quality Model for Cloud Services </a> <br> 
  - Open <a href = "https://www.microsoft.com/en-us/power-platform/products/power-bi/downloads"> Power BI application on cloud </a> <br> 
- - Open wokspace
- - Import local file
+ - Open **My wokspace**
+ - Import **Report, Paginated Report or Workbook**
+ - Seleect **From this computer** search the local file
 
 
  For more details see the **Demo Video**
@@ -99,11 +100,11 @@ Figure 4.<a href ="./images/Figure4.pdf">Cloud service quality characteristics a
   Your browser does not support the video tag.
 </video>
 
-[Watch the video]<a href = "https://github.com/ximeguerron/qualityModel/files/demo.mp4" target="_blank">**Demo **</a><br/>Download and play the Demo PowerBI Project
+<!--[Watch the video]<a href = "https://github.com/ximeguerron/qualityModel/files/demo.mp4" target="_blank">**Demo **</a><br/>Download and play the Demo PowerBI Project
 
 Link to **Excel** file <a href ="https://support.office.com/en-us/article/Start-the-Power-Pivot-add-in-for-Excel-a891a66d-36e3-43fc-81e8-fc4798f39ea8"> How to enable Excel complements
 
-NOTE: In order to visualize the reports, please enable de _Power Pivot_ and _Power View_ complements of Excel. 
+NOTE: In order to visualize the reports, please enable de _Power Pivot_ and _Power View_ complements of Excel. -->
 
 
 # Case study
