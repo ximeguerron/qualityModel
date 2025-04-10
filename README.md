@@ -14,7 +14,9 @@ The **_product quality model_** and the **_case study_** are detailed in the fol
 
 **B. Case study**
 
-## 1. Quality model metamodel {#metamodel}
+
+
+## A. Quality model metamodel {#metamodel}
 The quality model proposes the ISO/IEC 25010 standard as the baseline extends and decomposes into sub-characteristics adjusted to the domain, determines objectively measurable attributes, and specifies metrics for the attributes. 
 
 <a href ="./images/modelo.png"> Figure 1 </a> provides a clear and structured representation of the metamodel of the quality model and its metaclasses that describe the relationships among cloud domain and quality model concepts.
@@ -106,7 +108,7 @@ Link to **Excel** file <a href ="https://support.office.com/en-us/article/Start-
 NOTE: In order to visualize the reports, please enable de _Power Pivot_ and _Power View_ complements of Excel. -->
 
 
-# Case study
+# B. Case study
 The objective of the case study was to demonstrate the feasibility of operationalizing the proposed quality model to assess cloud services (e.g., databases, applications, microservices).
 
 The unit of analysis consisted of a single case SaaS called “Social Alert” (SAlert) running in a test operational environment. It is a real case of SaaS in the industry, a data science system applied to network analytics content-based. 
