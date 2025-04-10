@@ -6,16 +6,13 @@ The **_product quality model_** and the **_case study_** are detailed in the fol
 
 ## Index
 
-**Quality model for cloud services**
+**A. Quality model for cloud services**
 1. [Quality model metamodel](#metamodel)
 2. [Method](#method)
 3. [Building the quality model](#building)
 4. [Quality model for cloud services](#model)
 
-**Case study**
-
-
-# Product quality model for  cloud services
+**B. Case study**
 
 ## 1. Quality model metamodel {#metamodel}
 The quality model proposes the ISO/IEC 25010 standard as the baseline extends and decomposes into sub-characteristics adjusted to the domain, determines objectively measurable attributes, and specifies metrics for the attributes. 
