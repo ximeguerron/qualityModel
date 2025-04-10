@@ -83,19 +83,23 @@ Figure 4.<a href ="./images/Figure4.pdf">Cloud service quality characteristics a
 
 <br> 
 
-Link to **PowerBI** file <!-- (https://app.powerbi.com/groups/me/reports/9b8ada74-b2a1-481f-ac59-131e3422bc6a/ReportSection?experience=power-bi)-->
- <a href ="https://app.powerbi.com/groups/me/reports/9b8ada74-b2a1-481f-ac59-131e3422bc6a/ReportSection?experience=power-bi"> Quality Model for Cloud Services </a> <br> 
+### Instrucctions to **PowerBI Quality Model for Cloud Services** <br> 
 
- Download **PowerBI** file on Local
+ - Download **PowerBI file** on Local
  <a href ="./files/modelv3.pbix"> Quality Model for Cloud Services </a> <br> 
- 
+ - Open <a href = "https://www.microsoft.com/en-us/power-platform/products/power-bi/downloads"> Power BI application on cloud </a> <br> 
+ - Open wokspace
+ - Import local file
+
+
+ For more details see the **Demo Video**
 
  <video width="640" height="360" controls>
-  <source src="./files/Demo1.mp4" type="video/mp4">
+  <source src="./files/demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-[Watch the video]<a href = "https://github.com/ximeguerron/qualityModel/tree/master/files/Demo1.mp4" target="_blank">**Demo **</a><br/>Download and play the Demo PowerBI Project
+[Watch the video]<a href = "https://github.com/ximeguerron/qualityModel/files/demo.mp4" target="_blank">**Demo **</a><br/>Download and play the Demo PowerBI Project
 
 Link to **Excel** file <a href ="https://support.office.com/en-us/article/Start-the-Power-Pivot-add-in-for-Excel-a891a66d-36e3-43fc-81e8-fc4798f39ea8"> How to enable Excel complements
 
